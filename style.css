@@ -215,3 +215,70 @@ aside {
     margin-top: 15px;
     width: 220px;
 }
+
+
+
+/***** responsive design *****/
+
+@media screen and (max-width: 1100px) {
+    main {
+        max-width: 375px;
+        height: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%;
+        order: 1;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    #card_1 h2 {
+        font-size: 2em;
+    }
+
+    #card_3 {
+        padding-bottom: 0;
+    }
+
+    #card_3 img {
+        width: 200px;
+    }
+
+    #card_4 {
+        text-align: center;
+    }
+
+    #card_5 {
+        display: block;
+        text-align: center;
+    }
+
+    #card_5 img {
+        width: 200px;
+    }
+
+    #card_5 p {
+        margin-top: 30px;
+    }
+
+    #card_7 {
+        padding: 30px;
+        height: auto;
+    }
+
+    #card_8 { 
+        height: auto;
+    }
+}
